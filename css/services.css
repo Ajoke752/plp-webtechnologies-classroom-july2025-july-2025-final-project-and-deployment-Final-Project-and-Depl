@@ -1,0 +1,136 @@
+/* ===== SERVICES PAGE ===== */
+:root {
+  --primary: #b8660e;
+  --secondary: #457a97;
+  --neutral-light: #f7f2ec;
+  --text-dark: #353a4a;
+  --white: #ffffff;
+}
+
+/* Hero Section */
+.services-hero {
+  background: linear-gradient(rgba(53, 58, 74, 0.85), rgba(69, 122, 151, 0.75)),
+    url("images/services-hero-bg.jpg") center/cover no-repeat;
+  padding: 7rem 1.5rem;
+  text-align: center;
+  color: var(--white);
+}
+.services-hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.services-hero p {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--neutral-light);
+}
+
+/* Intro Section */
+.services-intro {
+  background: #fff;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+.services-intro h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.services-intro p {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+/* Services Grid */
+.services-list {
+  background: var(--neutral-light);
+  padding: 5rem 1.5rem;
+}
+.services-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 2.5rem;
+}
+.service-card {
+  background: var(--white);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-8px);
+}
+.service-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+.card-body {
+  padding: 1.8rem 1.5rem;
+}
+.card-body h3 {
+  color: var(--primary);
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-family: "Playfair Display", serif;
+}
+.card-body p {
+  font-size: 1rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.service-cta {
+  background: linear-gradient(rgba(53, 58, 74, 0.9), rgba(69, 122, 151, 0.85)),
+    url("images/cta-bg.jpg") center/cover no-repeat;
+  text-align: center;
+  padding: 5rem 1.5rem;
+  color: var(--white);
+}
+.service-cta h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.service-cta p {
+  max-width: 750px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: var(--neutral-light);
+}
+.service-cta .btn.primary {
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 1rem 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.3s ease;
+}
+.service-cta .btn.primary:hover {
+  background: var(--secondary);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-hero h2 {
+    font-size: 2.2rem;
+  }
+  .service-card img {
+    height: 200px;
+  }
+}

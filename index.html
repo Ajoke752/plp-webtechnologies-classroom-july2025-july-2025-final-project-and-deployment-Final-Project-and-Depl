@@ -1,34 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashionista - Home</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">Fashionista</div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Perfect Fit</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header class="navbar">
+      <div class="container nav-content">
+        <h1 class="logo"><a href="index.html">Perfect Fit</a></h1>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+
+          <a href="index.html#contact">Contact</a>
         </nav>
+      </div>
     </header>
-    <main>
-        <section class="hero">
-            <img src="images/hero-fashion.jpg" alt="Fashionista Hero" class="hero-img" style="max-width:100%;border-radius:12px;margin-bottom:1.5rem;">
-            <h1>Welcome to Fashionista</h1>
-            <p>Discover the latest trends in fashion. Shop dresses, shoes, bags, and more!</p>
-            <a href="shop.html"><button id="learnMoreBtn">Shop Now</button></a>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Fashionista. All rights reserved.</p>
+
+    <!-- Hero Section with Image -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h2>Perfect Fit, Perfect You</h2>
+          <p>
+            We transform clothes that don’t quite fit into garments that feel
+            custom-made for your body.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn primary">Book a Fitting</a>
+            <a href="#services" class="btn outline">View Services</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-fit.jpg" alt="Tailor adjusting clothing" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container about-content">
+        <h3 class="section-title">About Us</h3>
+        <div class="about-grid">
+          <div class="about-block">
+            <h3>Our Mission</h3>
+            <p>
+              To transform ill-fitting garments into stylish, comfortable pieces
+              that reflect your unique shape and style.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3>What We Do</h3>
+            <p>
+              Whether it’s adjusting a ready-made outfit, resizing a special
+              dress, or refining a suit, we provide expert alterations that feel
+              custom-made.
+            </p>
+          </div>
+
+          <div class="about-block">
+            <h3>Why Choose Us</h3>
+            <p>
+              We combine precision tailoring with a personal touch, ensuring
+              every stitch enhances your comfort and confidence.
+            </p>
+          </div>
+        </div>
+
+        <a href="#services" class="btn primary">Explore Our Services</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+      <div class="container">
+        <h3 class="section-title">Our Key Services</h3>
+        <div class="service-grid">
+          <div class="service-card">
+            <img src="images/service-alteration.jpg" alt="Alterations" />
+            <h4>Alterations</h4>
+            <p>Take in, let out, or adjust seams for perfect comfort.</p>
+          </div>
+          <div class="service-card">
+            <img src="images/service-fitting.jpg" alt="Custom Fittings" />
+            <h4>Custom Fittings</h4>
+            <p>
+              Tailored adjustments for dresses, suits, and special occasions.
+            </p>
+          </div>
+          <div class="service-card">
+            <img src="images/service-resize.jpg" alt="Resizing" />
+            <h4>Resizing & Restyling</h4>
+            <p>Update old clothes or adjust new ones for a fresh look.</p>
+          </div>
+          <div class="service-card">
+            <img src="images/service-repair.jpg" alt="Repairs" />
+            <h4>Repairs</h4>
+            <p>Fix zippers, hems, and minor damages quickly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h3 class="section-title">What Clients Say</h3>
+        <div class="testimonial-grid">
+          <div class="testimonial">
+            <p>
+              “My wedding dress was too loose, but after their magic it fit like
+              a glove!”
+            </p>
+            <span>– Amaka O.</span>
+          </div>
+          <div class="testimonial">
+            <p>
+              “I almost gave up on my blazer until it came back looking brand
+              new.”
+            </p>
+            <span>– Tunde K.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <!-- Left Column: Information -->
+        <div class="contact-info-box">
+          <h3>Get in Touch</h3>
+          <p>
+            Whether it’s a quick alteration or a full fitting, we’re ready to
+            help you achieve that perfect look. Reach out by phone, email, or
+            the form below.
+          </p>
+          <ul class="contact-details">
+            <li><strong>Address:</strong> 12 Fashion Lane, Lagos, Nigeria</li>
+            <li>
+              <strong>Phone:</strong>
+              <a href="tel:+2348001234567">+234 800 123 4567</a>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:info@perfectfit.com">info@perfectfit.com</a>
+            </li>
+            <li><strong>Hours:</strong> Mon–Sat: 9 AM – 7 PM</li>
+          </ul>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="contact-form-box contact-form" id="contactForm">
+          <h4>Send a Message</h4>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="5" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!-- Brand Intro -->
+        <div class="footer-brand">
+          <h3>Perfect Fit Tailoring</h3>
+          <p>
+            Expert clothing alterations to give every outfit a flawless fit.
+            Because confidence begins with the way your clothes fit.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Summary -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📞 <a href="tel:+2348001234567">+234 800 123 4567</a></p>
+          <p>✉️ <a href="mailto:info@perfectfit.com">info@perfectfit.com</a></p>
+          <p>📍 12 Fashion Lane, Lagos, Nigeria</p>
+        </div>
+
+        <!-- Social -->
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="images/icon-facebook.svg" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="images/icon-instagram.svg" alt="Instagram"
+            /></a>
+            <a href="#"><img src="images/icon-twitter.svg" alt="Twitter" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Perfect Fit Tailoring. All rights reserved.</p>
+      </div>
     </footer>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>

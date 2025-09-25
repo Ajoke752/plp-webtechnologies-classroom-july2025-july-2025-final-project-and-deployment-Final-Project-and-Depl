@@ -1,90 +1,99 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 👗 Perfect Fit – Tailoring Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+Perfect Fit is a modern, responsive website for a bespoke **clothing adjustment and alteration service**.  
+The platform showcases services, testimonials, and a contact form to help customers book fittings and learn more about our brand.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🌟 Features
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+- **Elegant Design** – Clean, fashion-inspired UI with consistent typography and brand colors.
+- **Responsive Layout** – Optimized for mobile, tablet, and desktop screens.
+- **Services Showcase** – Highlights tailoring services with images and descriptions.
+- **Interactive Elements**
+  - Contact form with client-side **JavaScript validation**.
+  - Automatic **image slider** to display sample works or testimonials.
+- **Multi-page Structure** – Includes **Home**, **About**, **Services**, and **Contact** pages for easy navigation.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 🖼️ Pages Overview
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+| Page         | Purpose                                                            |
+| ------------ | ------------------------------------------------------------------ |
+| **Home**     | Hero section with call-to-action, brief overview of services.      |
+| **About**    | Company story, mission, and unique selling points.                 |
+| **Services** | Grid display of alteration services with photos and pricing notes. |
+| **Contact**  | Contact form, email links, and location details for bookings.      |
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 🛠️ Tech Stack
 
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+- **HTML5** – Semantic markup for accessibility and SEO.
+- **CSS3 (Custom Stylesheets)** – Vanilla CSS with a global design system and separate page styles.
+- **JavaScript (ES6)** – Adds form validation and image slider functionality.
+- **Responsive Design** – Flexbox and CSS Grid for layout.
 
 ---
 
-## Deliverables
+## 📂 Project Structure
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+perfect-fit/
+├─ index.html # Home page
+├─ about.html # About page
+├─ services.html # Services page
+├─ contact.html # Contact page (optional if included in index)
+├─ css/
+│ ├─ style.css # Global styles
+│ ├─ services.css # Page-specific styles (e.g., services page)
+│ └─ about.css # Page-specific styles (if needed)
+├─ js/
+│ └─ script.js # Form validation
+└─ images/ # Site images (hero, services, logo, etc.)
 
 ---
 
-## Outcome
+## ⚡ Installation & Usage
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+1. **Clone or Download** this repository:
+   ```bash
+   git clone https://github.com/Ajoke752/perfect-fit.git
+   ```
+
+cd perfect-fit
+
+Launch index.html in any modern browser.
+(No server is required as this is a static site.)
+
+🧩 Customization
+
+Colors & Fonts: Adjust color variables in css/style.css (:root section).
+
+Images: Replace placeholder images in the images/ directory with your own tailoring photos.
+
+Content: Edit the text in the HTML files to reflect your brand story and services.
+
+🚀 Future Enhancements
+
+Backend integration for form submissions (e.g., Node.js, PHP, or a serverless function).
+
+Online booking system with date/time picker.
+
+Customer reviews with a database.
+
+📄 License
+
+This project is licensed under the MIT License – feel free to use and modify for personal or commercial purposes.
+
+💌 Contact
+
+For questions or collaboration:
+
+Website: Perfect Fit
+
+Email: info@perfectfit.com
+
+Social Media: Instagram / Facebook / Twitter (@perfectfit)
+
+---

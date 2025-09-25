@@ -1,68 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Fashionista</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Perfect Fit Tailoring</title>
+
+  <!-- Global & Page Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Fashionista</div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
-        </nav>
-    </header>
-    <main>
-        <section class="about about-grid">
-            <div class="about-left">
-                <h2>About Fashionista</h2>
-                <p>Fashionista is your go-to destination for the latest styles and trends. We curate the best in dresses, shoes, bags, and accessories to keep you looking fabulous every season.</p>
-                <h3>Our Mission</h3>
-                <p>To empower everyone to express their unique style with confidence. We believe fashion should be accessible, inspiring, and fun for all.</p>
-                <h3>Our Values</h3>
-                <ul>
-                    <li><strong>Quality:</strong> We source only the finest materials and brands.</li>
-                    <li><strong>Inclusivity:</strong> Fashionista celebrates diversity in style and size.</li>
-                    <li><strong>Customer Care:</strong> Your satisfaction is our top priority.</li>
-                    <li><strong>Innovation:</strong> We stay ahead of trends to bring you the latest looks.</li>
-                </ul>
-                <h3>Why Shop With Us?</h3>
-                <ul>
-                    <li><strong>Curated Collections:</strong> Only the best styles, handpicked for you.</li>
-                    <li><strong>Fast Shipping:</strong> Get your fashion delivered quickly and reliably.</li>
-                    <li><strong>Easy Returns:</strong> Hassle-free returns and exchanges.</li>
-                    <li><strong>Secure Payments:</strong> Shop with confidence using trusted payment options.</li>
-                </ul>
-            </div>
-            <div class="about-right">
-                <h3>What Our Customers Say</h3>
-                <div class="testimonials">
-                    <blockquote>
-                        "Fashionista always has the trendiest outfits. My go-to shop!"<br>
-                        <span>- Mary K.</span>
-                    </blockquote>
-                    <blockquote>
-                        "Super fast delivery and great customer service. Highly recommend!"<br>
-                        <span>- James O.</span>
-                    </blockquote>
-                    <blockquote>
-                        "The quality is amazing and the prices are fair. Love my new bag!"<br>
-                        <span>- Amina S.</span>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Fashionista. All rights reserved.</p>
-    </footer>
-    <script src="js/main.js"></script>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <h1 class="logo"><a href="index.html">Perfect Fit</a></h1>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html" class="active">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="about-hero">
+    <div class="container">
+      <h2>About Perfect Fit Tailoring</h2>
+      <p>
+        Crafting clothes that compliment every curve and every personality.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Our Story ===== -->
+  <section class="story container">
+    <div class="story-content">
+      <div class="story-text">
+        <h3>Our Story</h3>
+        <p>
+          Perfect Fit began with a simple goal: to help people feel amazing in
+          their own clothes. We know how frustrating it can be when a beloved
+          outfit doesn’t fit just right. That’s why we set out to provide expert
+          alterations that transform “almost right” into “absolutely perfect.”
+        </p>
+        <p>
+          From everyday wardrobe fixes to special occasion garments, we
+          approach every piece with precision, creativity, and love for the art
+          of tailoring.
+        </p>
+      </div>
+      <div class="story-image">
+        <img src="images/about-story.jpg" alt="Tailor working carefully">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Values Section ===== -->
+  <section class="values">
+    <div class="container">
+      <h3>What We Stand For</h3>
+      <div class="values-grid">
+        <div class="value-card">
+          <h4>Precision</h4>
+          <p>
+            Every stitch is measured with care, ensuring garments look
+            custom-made.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Personalization</h4>
+          <p>
+            Your unique style guides our work—no two alterations are the same.
+          </p>
+        </div>
+        <div class="value-card">
+          <h4>Sustainability</h4>
+          <p>
+            Extending the life of your clothing is one of the most stylish ways
+            to protect the planet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Team Section ===== -->
+  <section class="team container">
+    <h3>Meet the Team</h3>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="images/team1.jpg" alt="Founder">
+        <h4>Amaka Bello</h4>
+        <p>Founder & Master Tailor</p>
+      </div>
+      <div class="team-member">
+        <img src="images/team2.jpg" alt="Senior tailor">
+        <h4>David Olu</h4>
+        <p>Senior Tailor</p>
+      </div>
+      <div class="team-member">
+        <img src="images/team3.jpg" alt="Customer Care">
+        <h4>Chioma Ade</h4>
+        <p>Customer Experience Lead</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Call to Action ===== -->
+  <section class="cta">
+    <div class="container">
+      <h3>Let’s Create Your Perfect Fit</h3>
+      <a href="services.html" class="btn primary">View Our Services</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>Perfect Fit Tailoring</h3>
+        <p>Expert alterations to help you look and feel your best.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📍 12 Fashion Lane, Lagos, Nigeria</p>
+        <p>📞 +234 800 123 4567</p>
+        <p>✉️ <a href="mailto:info@perfectfit.com">info@perfectfit.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Perfect Fit Tailoring — All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
